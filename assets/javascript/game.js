@@ -1,7 +1,7 @@
             //Storing guessing topics in 3 separate objects
             myTopic1 = { "name": "Island Names", "itemsToGuess": ["barbados", "trinidad", "antigua", "cuba", "st lucia", "st martin"] };
             myTopic2 = { "name": "US State Names", "itemsToGuess": ["new york", "virginia", "texas", "colorado"] };
-            myTopic3 = { "name": "Presidents", "itemsToGuess": ["barrack bbama", "george bush", "john f kennedy", "donald trump", "richard nixon", "george washington"]}
+            myTopic3 = { "name": "Presidents", "itemsToGuess": ["barrack obama", "george bush", "john f kennedy", "donald trump", "richard nixon", "george washington"]}
             //Storing topics objects in arrary
             topicsArray = [myTopic1, myTopic2, myTopic3];
 
@@ -11,7 +11,7 @@
             var randTopic = Math.floor(Math.random() * Math.floor(topicsArray[randTopics].itemsToGuess.length));
 
             //Set hint for Topic to guess
-            document.getElementById("demo").innerHTML = topicsArray[randTopics].name;
+            document.getElementById("hint").innerHTML = topicsArray[randTopics].name;
             console.log(randTopic);
 
             //Build the masked word to guess using random itemsToGuess property from the topics array
