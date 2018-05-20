@@ -1,0 +1,6 @@
+.hang-man-canvas{
+    width: 200px;
+     height: 150px; 
+     border:1px solid #d3d3d3; 
+     background-color: #0c0c0ce3;
+}

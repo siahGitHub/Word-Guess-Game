@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Added link to the jQuery library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      
+        <!-- Added a link to Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="#board">
+                <!--div class="#board" style="float:right;"-->
+                    <canvas id="myCanvas" class="hang-man-canvas">
+                    </canvas>
+                    <div id="guesses"></div>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <h1 id=result></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="game">
+                    <div id="demo"></div>
+                    <div class ="">Letters Already Guessed</div>
+                </div>
+            </div>
+            <div class="col-12">
+                    <h1><div id="user-text" class="badge badge-dark"></div></h1>
+            </div>
+            <div class="col-12">
+                    <button id="restart" class="btn btn-dark btn-lg" onclick="startOver()">Start Over</button>
+            </div>
+        </div>
+    </div>
+        <!--input type="text" onkeyup="myFunction()"-->
+        <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
