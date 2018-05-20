@@ -1,8 +1,9 @@
-            //Storing guessing topics in 2 separate objects
+            //Storing guessing topics in 3 separate objects
             myTopic1 = { "name": "Island Names", "itemsToGuess": ["barbados", "trinidad", "antigua", "cuba", "st lucia", "st martin"] };
             myTopic2 = { "name": "US State Names", "itemsToGuess": ["new york", "virginia", "texas", "colorado"] };
+            myTopic3 = { "name": "Presidents", "itemsToGuess": ["barrack bbama", "george bush", "john f kennedy", "donald trump", "richard nixon", "george washington"]}
             //Storing topics objects in arrary
-            topicsArray = [myTopic1, myTopic2];
+            topicsArray = [myTopic1, myTopic2, myTopic3];
 
             //Intialization
             var guess = "";
